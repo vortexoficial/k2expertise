@@ -76,52 +76,102 @@
    
     <!-- ==========Banner Section start Here========== -->
     <section class="banner-section">
-        <style>
-            /* Estilo para o fundo do GIF no desktop */
-            .banner-section {
-                background: url('assets/images/banner/bg.png') no-repeat center center/cover;
-            }
-    
-            /* Estilo para o fundo do GIF no mobile */
-            @media (max-width: 767px) {
-                .banner-section {
-                    background: url('assets/images/banner/bg.png') no-repeat left center;
-                    background-size: auto 100%; /* Ajuste para mostrar a parte da esquerda */
-                    background-repeat: no-repeat;
-                }
-            }
-        </style>
-    
-        <div class="container">
-            <div class="banner-wrapper d-flex flex-wrap align-items-center justify-content-between">
-                <div class="col-lg-6 col-12">
-                    <div class="banner-content">
-                        <img src="assets/images/logo/logo.png" width="65%"><br><br><br>
-                        <h2 class="mb-0"> 
-                            <font color="#e7d99d">TRANFORME SUA LIDERANÇA</font>  
-                            <font color="#ffffff">COM A CONSULTORIA<br>
-                            <font color="#e7d99d">EXCLUSIVA</font> K2</font>
-                        </h2>
-                        <br>
-                        <p>
-                            <font size="5" style="font-weight: 100; line-height: 1.3;">
-                                Líder, você está pronto para dar o próximo passo e tirar suas dúvidas sobre liderança?
-                            </font>
-                        </p>
-                        <a href="#investimento" class="lab-btn mt-3 scroll-button">
-                            <span><font color="#000000"><b>DAR PRÓXIMO PASSO</b></font></span>
-                        </a>
-                    </div>  <div class="col-lg-6 col-12">
-                        <div class="banner-image">
-                            <img src="assets/images/banner/01.png"  alt="banner-img">
-                        </div>
-                    </div>
-                </div>
-              
-            </div>
+  <style>
+    .banner-section {
+      background: url('assets/images/banner/bg.png') no-repeat center center/cover;
+    }
+
+    @media (max-width: 767px) {
+      .banner-section {
+        background: url('assets/images/banner/bg.png') no-repeat left center;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .banner-titulo {
+      color: #ffffff;
+      font-size: 35px;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+
+    .banner-titulo .destaque {
+      color: #e7d99d;
+    }
+
+    .desktop-break {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .desktop-break {
+        display: block; /* força quebra apenas no desktop */
+      }
+    }
+
+    @media (max-width: 767px) {
+      .banner-titulo {
+        font-size: 26px;
+        line-height: 1.4;
+      }
+
+      .lab-btn {
+        font-size: 15px;
+        padding: 10px 20px;
+      }
+    }
+
+    .lab-btn {
+      background: linear-gradient(45deg, #e7d99d, #f9c24d) !important;
+      color: #000000 !important;
+      padding: 12px 30px !important;
+      border-radius: 10px !important;
+      font-weight: bold !important;
+      text-align: center !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      transition: background 0.3s ease, transform 0.3s ease !important;
+    }
+
+    .lab-btn:hover {
+      background: linear-gradient(45deg, #f9c24d, #e7d99d) !important;
+      transform: translateY(-5px) !important;
+    }
+  </style>
+
+  <div class="container">
+    <div class="banner-wrapper d-flex flex-wrap align-items-center justify-content-between">
+      <div class="col-lg-6 col-12">
+        <div class="banner-content">
+          <img src="assets/images/logo/logo.png" width="65%"><br><br><br>
+
+          <h3 class="banner-titulo mb-0">
+            <span class="destaque">EXCLUSIVO NO BRASIL:</span><br>
+            O DIAGNÓSTICO K2 REVELA<span class="desktop-break"></span> A <span class="destaque">SAÚDE DA SUA EMPRESA</span><br>
+            COMO VOCÊ NUNCA VIU.
+          </h3>
+
+          <br>
+          <p style="font-size: 20px; font-weight: 300; line-height: 1.3; color: #fff;">
+            A mudança começa quando você tem um diagnóstico real, profundo e confiável.
+          </p>
+
+          <a href="#investimento" class="lab-btn mt-3 scroll-button">
+            <span><b><font color="black" >FAZER DIAGNÓSTICO GRATUITO AGORA</font></b></span>
+          </a>
         </div>
-    </section>
-    
+      </div>
+
+      <div class="col-lg-6 col-12">
+        <div class="banner-image">
+          <img src="assets/images/banner/01.png" alt="banner-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     
     <!-- ==========Banner Section end Here========== -->
 
@@ -133,7 +183,7 @@
   <style>
     .consulting-second-fold {
       background: #fffdf6;
-      padding: 100px 20px;
+      padding: 36px 20px;
       text-align: center;
     }
 
@@ -181,17 +231,17 @@
   <div class="icon">
     <img src="assets/images/maleta.png" alt="Ícone de Maleta 3D" />
   </div>
-  <h2>Consultoria Estratégica para <font color="#b2a04e">Líderes</font></h2>
+  <h2>Os sintomas nem sempre são visíveis<font color="#b2a04e"> mas os impactos são.</font></h2>
   <p>
-    A <strong>Consultoria K2 Expertise</strong> oferece sessões online e personalizadas, onde você, líder, pode tirar qualquer dúvida ou pedir direcionamento específico sobre os desafios que está enfrentando em sua liderança. É o suporte que você precisa para avançar, com soluções práticas e aplicáveis para seu dia a dia.
-  </p>
-  <a href="#investimento" class="lab-btn mt-3 scroll-button">
-                            <span><font color="#000000"><b>AGENDAR MINHA SESSÃO</b></font></span>
-                        </a>
+    O <strong>Diagnóstico K2</strong> revela a saúde da sua empresa como você nunca viu.<br>
+A mudança começa quando você tem um diagnóstico real, profundo e confiável.<br>
+Você sente que sua empresa poderia estar em outro nível, mas algo trava.<br>
+As vendas acontecem, a equipe se esforça...<br>
+Mas o crescimento não é sustentável, a rotina pesa, os resultados oscilam.</p></font>
+<div class="align-items-center"> <img src="assets/images/frame.png" width="50px"></div>
 </section>
 
-   
-    <section class="consulting-third-fold">
+<section class="consulting-third-fold">
   <style>
     .consulting-third-fold {
       background: #f7f7f7;
@@ -210,6 +260,8 @@
 
     .consulting-third-fold .text-content {
       flex: 1 1 500px;
+      display: flex;
+      flex-direction: column;
     }
 
     .consulting-third-fold h3 {
@@ -229,18 +281,22 @@
     .consulting-third-fold ul li {
       font-size: 1.1rem;
       color: #444;
-      padding-left: 1.5em;
+      padding-left: 2em;
       position: relative;
       margin-bottom: 15px;
       line-height: 1.6;
     }
 
     .consulting-third-fold ul li::before {
-      content: "✔";
-      color: #cab660;
+      content: "";
       position: absolute;
       left: 0;
-      font-weight: bold;
+      top: 0.3em;
+      width: 1.2em;
+      height: 1.2em;
+      background-image: url("data:image/svg+xml,%3Csvg fill='%23e49c00' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
     }
 
     .consulting-third-fold .image-content {
@@ -252,26 +308,52 @@
       max-width: 100%;
       height: auto;
     }
+
+    .consulting-third-fold .cta-button {
+      margin-top: 30px;
+    }
+
+    /* MOBILE: altera a ordem dos elementos */
+    @media (max-width: 768px) {
+      .consulting-third-fold .content-wrapper {
+        flex-direction: column-reverse;
+      }
+
+      .consulting-third-fold .cta-button {
+        order: 1;
+        align-self: center;
+      }
+    }
   </style>
 
   <div class="content-wrapper">
     <div class="text-content">
-      <h3>Você pode pedir orientações sobre:</h3>
+      <h3>O problema nem sempre está onde parece.</h3>
+      <p style="font-size: 20px; font-weight: 300; line-height: 1.3; color: #303030;">
+        Muitos empresários focam em metas, produtividade e marketing
+        mas ignoram as estruturas invisíveis que realmente sustentam um negócio saudável:
+      </p><br>
       <ul>
-        <li>Gestão de equipes</li>
-        <li>Tomada de decisões difíceis</li>
-        <li>Desenvolvimento de competências de liderança</li>
-        <li>Estratégias para engajar e motivar sua equipe</li>
-        <li>Conflitos internos e como resolvê-los</li>
-        <li>Como melhorar seus resultados</li>
-        <li>Ou qualquer outro desafio de liderança que você esteja enfrentando!</li>
+        <li>Equipe desalinhada e sobrecarregada</li>
+        <li>Decisões travadas ou tomadas no improviso</li>
+        <li>Cultura organizacional frágil</li>
+        <li>Atendimento sem padrão nem consistência</li>
+        <li>Contratações equivocadas ou sem critério</li>
+        <li>Falta de indicadores confiáveis e análise de dados</li>
+        <li>Enquanto isso não for identificado, sua empresa continuará operando no escuro</li>
       </ul>
+      <a href="#investimento" class="lab-btn mt-3 scroll-button cta-button">
+        <span><b><font color="black">COMEÇAR MEU DIAGNÓSTICO GRATUITO</font></b></span>
+      </a>
     </div>
+
     <div class="image-content">
       <img src="assets/images/empresario.png" alt="Empresário com estilo elegante e profissional" />
-    </div>
+    </div> 
   </div>
 </section>
+
+
 
 <section class="consulting-fourth-fold">
   <style>
@@ -285,8 +367,17 @@
     .consulting-fourth-fold h3 {
       font-size: 2.4rem;
       font-weight: 800;
-      color: #cab660;
+      color: #dbc45b;
       margin-bottom: 50px;
+    }
+
+    .consulting-fourth-fold p {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.3;
+      color: #fff;
+      max-width: 900px;
+      margin: 0 auto 30px;
     }
 
     .consulting-fourth-fold ul {
@@ -294,40 +385,55 @@
       padding: 0;
       max-width: 900px;
       margin: 0 auto;
-      text-align: left;
+      text-align: center;
     }
 
     .consulting-fourth-fold ul li {
       font-size: 1.2rem;
       color: #fff;
-      padding-left: 1.8em;
-      position: relative;
       margin-bottom: 25px;
       line-height: 1.8;
     }
 
-    .consulting-fourth-fold ul li::before {
-      content: "★";
-      color: #cab660;
-      position: absolute;
-      left: 0;
-      font-size: 1.2rem;
+    /* MOBILE: alinha tudo à esquerda */
+    @media (max-width: 768px) {
+      .consulting-fourth-fold {
+        text-align: left;
+      }
+
+      .consulting-fourth-fold h3,
+      .consulting-fourth-fold p {
+        margin-left: 0;
+      }
+
+      .consulting-fourth-fold ul {
+        text-align: left;
+        margin-left: 0;
+      }
     }
   </style>
 
-  <h3>O Que Você Vai Receber com a Consultoria <span style="color: #fff;">K2 Expertise</span>?</h3>
+  <h3>Começamos com o que mais falta na maioria das empresas: </h3>
+  <p>
+    Um diagnóstico de verdade. Com uma ferramenta exclusiva, avaliamos profundamente 4 pilares vitais da sua empresa:
+  </p>
   <ul>
-    <li><strong style="color: #cab660;">Sessões 100% Personalizadas:</strong> Cada sessão é voltada para suas necessidades específicas como líder. Você escolhe o que discutir e em que áreas precisa de orientação.</li>
-    <li><strong style="color: #cab660;">Orientação e Direcionamento Imediato:</strong> Em uma hora, vamos abordar todos os pontos que você precisar. Seja qual for a sua dúvida, a solução será prática e direta.</li>
-    <li><strong style="color: #cab660;">Suporte contínuo:</strong> Você terá acompanhamento para garantir que o que foi discutido seja aplicado de maneira eficaz na sua liderança.</li>
+   <li>🧠 Liderança e tomada de decisão</li>
+    <li>🫀 Equipe, cultura e engajamento</li>
+    <li>🫁 Finanças e Sustentação</li>
+    <li>🩸 Processos, Comunicação e Sistemas</li>
   </ul>
+<br>
+  <h5>
+    <font color="#dbc45b"> Mais do que uma avaliação, é um mapa estratégico para tomada de decisão com clareza.</font>
+  </h5>
 </section>
 
 <section class="consulting-fifth-fold">
   <style>
     .consulting-fifth-fold {
       background: #fdf7e3;
-      padding: 100px 20px;
+      padding: 20px 20px;
     }
 
     .consulting-fifth-fold .content-wrapper {
@@ -365,21 +471,26 @@
       font-weight: 800;
       color: #111;
       margin-bottom: 30px;
+      text-align: center;
     }
 
     .consulting-fifth-fold ul {
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 0 0 40px 0;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .consulting-fifth-fold ul li {
       font-size: 1.15rem;
       color: #444;
+      margin-bottom: 15px;
+      line-height: 1.7;
       padding-left: 1.8em;
       position: relative;
-      margin-bottom: 20px;
-      line-height: 1.7;
     }
 
     .consulting-fifth-fold ul li::before {
@@ -390,52 +501,130 @@
       font-weight: bold;
     }
 
-    .consulting-fifth-fold .second-block {
-      margin-top: 80px;
-      background: #fff;
-      border-radius: 20px;
-      padding: 60px 40px;
-      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .consulting-fifth-fold .second-block h3 {
+    /* Botão */
+    .consulting-fifth-fold .btn-diagnostico {
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+      background-color: #bfa741;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.2rem;
+      padding: 15px 40px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
       text-align: center;
-      margin-bottom: 30px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      user-select: none;
     }
 
-    .consulting-fifth-fold .second-block ul {
-      text-align: left;
+    .consulting-fifth-fold .btn-diagnostico:hover {
+      background-color: #a38e31;
     }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .consulting-fifth-fold .content-wrapper {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .consulting-fifth-fold ul {
+        max-width: 100%;
+        padding: 0 10px;
+      }
+    }
+
   </style>
 
-  <!-- Primeira parte: O Que Inclui... -->
   <div class="content-wrapper">
     <div class="image-content">
-      <img src="assets/images/consultoria.png"  >
+      <img src="assets/images/grafico.png" alt="Consultoria K2 Expertise" />
     </div>
     <div class="text-content">
-      <h3>O Que Inclui a Consultoria <span style="color: #bfa741;">K2 Expertise</span>?</h3>
+      <h3><span style="color: #bfa741;">Você vai descobrir:</span></h3>
       <ul>
-        <li><strong style="color: #bfa741;">Consultoria Online:</strong> Realizada de maneira 100% online, com flexibilidade de horário.</li>
-        <li><strong style="color: #bfa741;">Pacote de Sessões:</strong> Sessões avulsas de 1 hora por apenas R$199,00 ou pacote com 3 sessões por R$499,00 para um acompanhamento contínuo e mais completo.</li>
+        <li>Os gargalos ocultos que travam seu crescimento</li>
+        <li>O nível real de maturidade da sua liderança, equipe e processos</li>
+        <li>Alinhamento (ou não) entre estratégia e execução</li>
+        <li>Riscos financeiros e operacionais ignorados</li>
+        <li>O ponto exato para agir com foco e eficiência</li>
       </ul>
+      
+       <a href="#investimento" class="lab-btn mt-3 scroll-button cta-button">
+        <span><b><font color="black">Quero meu diagnóstico exclusivo</font></b></span>
+      </a>
     </div>
-  </div>
-
-  <!-- Segunda parte com retângulo branco -->
-  <div class="second-block">
-    <h3>Por Que a Consultoria <span style="color: #bfa741;">K2 Expertise</span> é Ideal para Você?</h3>
-    <ul>
-      <li>Respostas rápidas e práticas para os desafios do dia a dia de um líder.</li>
-      <li>Sessões focadas nas suas reais necessidades, sem teoria, apenas soluções aplicáveis.</li>
-      <li>Valor acessível com um retorno imediato no seu desenvolvimento como líder.</li>
-    </ul>
   </div>
 </section>
 
+<section style="background: #fff; padding: 60px 20px; font-family: Arial, sans-serif; color: #000;">
+  <div class="empresa-conteudo" style="max-width: 700px; margin: 0 auto;">
+    <h2 style="font-weight: bold; font-size: 2rem; margin-bottom: 40px; color: #243746;">
+      Ideal para empresas que:
+    </h2>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem; line-height: 1.4;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Crescem, mas <span style="color: #bfa741; font-weight: 600; margin: 0 4px;">sem controle e estrutura</span>
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem; line-height: 1.4;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Estagnaram e <span style="color: #bfa741; font-weight: 600; margin: 0 4px;">não sabem onde está o problema</span>
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Dependem demais do dono para funcionar
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Têm equipe <span style="color: #bfa741; font-weight: 600; margin: 0 4px;">desmotivada ou desalinhada</span>
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Sofrem com <span style="color: #bfa741; font-weight: 600; margin: 0 4px;">processos confusos</span> e atendimento irregular
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Têm dificuldade para contratar e manter talentos
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 20px; font-size: 1.1rem;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Querem aumentar o <span style="color: #bfa741; font-weight: 600; margin: 0 4px;">faturamento de forma consistente</span>
+        </p>
+      </li>
+      <li style="display: flex; align-items: flex-start; font-size: 1.1rem;">
+        <span style="color: #bfa741; font-size: 1.5rem; margin-right: 12px;">✔</span>
+        <p style="margin: 0;">
+          Precisam estruturar o negócio desde o zero, com <span style="color: #bfa741; font-weight: 600; margin: 0 4px;">base sólida</span>
+        </p>
+      </li>
+    </ul>
+  </div>
+
+  <style>
+    @media (min-width: 768px) {
+      .empresa-conteudo {
+        padding-left: 80px; /* empurra o conteúdo mais para a direita no desktop */
+      }
+    }
+  </style>
+</section>
 
 <section class="consulting-faq">
   <style>
@@ -443,146 +632,193 @@
       background: #fffdf6;
       padding: 100px 20px;
       font-family: 'Segoe UI', sans-serif;
+      color: #111;
     }
 
     .consulting-faq .faq-container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
     }
 
     .consulting-faq h2 {
       text-align: center;
       font-size: 2.5rem;
-      color: #111;
+      font-weight: 700;
       margin-bottom: 60px;
     }
 
-    .faq-item {
-      background: #ffffff;
-      border-left: 5px solid #cab660;
-      border-radius: 12px;
-      padding: 25px 30px;
-      margin-bottom: 30px;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .consulting-faq h3 {
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: #111;
+      margin-top: 50px;
+      margin-bottom: 20px;
     }
 
-    .faq-item:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    .consulting-faq p {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #333;
     }
 
-    .faq-item h3 {
-      margin-bottom: 15px;
-      font-size: 1.6rem;
-      color: #b2a04e;
-      font-weight: 700;
+    .consulting-faq strong {
+      font-weight: 600;
+      color: #000;
     }
 
-    .faq-item p {
+    .consulting-faq ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .consulting-faq ul li {
       font-size: 1.1rem;
-      color: #444;
       line-height: 1.7;
+      margin-bottom: 10px;
     }
 
     .cta-final {
       text-align: center;
-      margin-top: 60px;
+      margin-top: 70px;
     }
 
     .cta-final h3 {
       font-size: 2rem;
-      color: #111;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    .cta-final a {
+      display: inline-block;
+      margin: 10px 8px;
+    }
+
+    /* Bloco de ajuda da K2 com imagem */
+    .k2-help-section {
+      display: flex;
+      flex-wrap: wrap;
+      background: #2e2e2e;
+      border-radius: 20px;
+      padding: 50px;
+      margin: 60px auto;
+      color: #fff;
+    }
+
+    .k2-help-content,
+    .k2-help-image {
+      flex: 1;
+      position: relative;
+      z-index: 1;
+      min-width: 280px;
+    }
+
+    .k2-help-content {
+      padding-right: 30px;
+    }
+
+    .k2-help-content h3 {
+      font-size: 1.8rem;
+      color: #fff;
+      font-weight: 600;
       margin-bottom: 20px;
     }
 
-    .cta-final p {
-      font-size: 1.15rem;
-      color: #444;
-      margin-bottom: 30px;
+    .k2-help-content ul {
+      padding-left: 18px;
+      list-style: none;
     }
 
-    .cta-final .cta-button {
-      display: inline-block;
-      background: #cab660;
-      color: #000;
-      padding: 14px 32px;
-      font-weight: bold;
-      font-size: 1rem;
-      border-radius: 10px;
-      text-decoration: none;
-      transition: background 0.3s ease;
+    .k2-help-content ul li::before {
+      content: "✔";
+      color: #bfa741;
+      margin-right: 10px;
     }
 
-    .cta-final .cta-button:hover {
-      background: #b2a04e;
+    .k2-help-content ul li {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 10px;
+    }
+
+    .k2-help-content p {
+      color: #ddd;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .k2-help-image {
+      text-align: center;
+    }
+
+    .k2-help-image img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .k2-help-section {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .k2-help-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+      }
     }
   </style>
 
   <div class="faq-container">
-    <h2>Como Funciona?</h2>
+    <h2>O Diagnóstico K2 é só o começo da transformação.</h2>
 
-    <div class="faq-item">
-      <h3>1. Agende sua sessão inicial</h3>
-      <p>Preencha o formulário abaixo e escolha a data e horário para a sua primeira sessão. Você terá 1 hora dedicada a resolver qualquer dúvida ou receber o direcionamento que precisa.</p>
+    <p>
+      Após revelar os <strong>pontos cegos</strong> do seu negócio, a <strong>K2 Expertise</strong> oferece um acompanhamento estratégico com <strong>mentoria e consultoria personalizada</strong>.
+      Você recebe um <strong>plano de ação claro</strong>, construído a partir da realidade da sua empresa, e o suporte necessário para executá-lo.
+    </p>
+
+    <!-- BLOCO COM IMAGEM E LISTA -->
+    <div class="k2-help-section">
+      <div class="k2-help-content">
+        <h3>Como a K2 pode ajudar sua empresa</h3>
+        <ul>
+          <li>Definir metas e direção estratégica</li>
+          <li>Estruturar processos e formar equipes alinhadas</li>
+          <li>Controlar finanças com foco em resultados</li>
+          <li>Superar gargalos e crescer com consistência</li>
+        </ul>
+        <p>
+          Tudo com base em um >método que une estratégia, estrutura e sustentabilidade de crescimento.
+        </p>
+      </div>
+      <div class="k2-help-image">
+        <img src="assets/images/imgrodape.png" alt="Como a K2 pode ajudar sua empresa">
+      </div>
     </div>
 
-    <div class="faq-item">
-      <h3>2. Escolha o que discutir</h3>
-      <p>Durante a sessão, você pode perguntar sobre qualquer desafio de liderança ou pedir conselhos específicos. O foco é totalmente voltado para o que você mais precisa!</p>
-    </div>
+    <h3>Quem está por trás dessa transformação?</h3>
+    <p>
+      A <strong>K2 Business</strong> é formada por especialistas em cultura organizacional, liderança e estruturação empresarial.
+      Com mais de <strong>10 anos de atuação prática</strong>, já ajudamos dezenas de empresas a sair do improviso e alcançar resultados com método e humanidade.
+    </p>
 
-    <div class="faq-item">
-      <h3>3. Aplique as soluções e veja os resultados</h3>
-      <p>Após cada sessão, você já poderá colocar em prática as soluções discutidas e observar mudanças positivas na sua liderança.</p>
-    </div>
+    <h3>Está pronto para destravar o crescimento da sua empresa?</h3>
+    <p>
+      Não importa o seu setor, porte ou momento atual. Se o seu negócio precisa de direção, o <strong>Diagnóstico K2</strong> é o primeiro passo para evoluir com clareza e estrutura.
+    </p>
 
     <div class="cta-final">
-      <h3>Invista em Seu Crescimento como Líder!</h3>
-      <p>A <b>K2 Expertise</b> oferece a você a chance de transformar sua liderança, com soluções práticas e direcionamento claro para seus maiores desafios.</p>
-      <a href="#investimento" class="lab-btn mt-3 scroll-button">
-                            <span><font color="#000000"><b>AGENDAR MINHA SESSÃO</b></font></span>
-                        </a>
+      <h3>Escolha como iniciar sua jornada com a K2:</h3>
+      <a href="#investimento" class="lab-btn mt-3 scroll-button cta-button">
+        Fazer meu diagnóstico gratuito agora
+      </a>
+      <a href="https://wa.me/SEUNUMERO" target="_blank" class="lab-btn mt-3 scroll-button cta-button">
+        Falar com uma especialista no WhatsApp
+      </a>
     </div>
   </div>
 </section>
 
-        
-    <!-- ===== Event Gift end here  ==== -->
-   <section class="about-section padding-tb padding-b shape-img">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-12 row justify-content-center">
-                <div class="section-wrapper text-center"> 
-                    <h2><font color="#e2d89f">Sobre nós:</font></h2>
-                    <div class="section-wrapper">
-                        <div class="gift-content">
-                            <br>   <div class="description-box">
-                                <h5>Karen, <font style="font-weight: 300;">formada em Direito e pós-graduada como Especialista em Comportamento Humano. Com mais de 20 anos de experiência na área empresarial e RH, construiu uma carreira sólida unindo estratégia e gestão de pessoas.
-                                    <br><br>Atualmente, é Business Partner do grupo Levi’s em Santos, onde impulsiona o crescimento de líderes e resultados.</font>
-                                </h5>
-                            </div><br>
-                            <!-- Caixa de descrição de Kelly -->
-                            <div class="description-box">
-                                <h5>Kelly, <font style="font-weight: 300;">formada em Gestão Empresarial, Coaching e Programação Neurolinguística (PNL), construiu uma trajetória sólida ao longo de 20 anos.
-                                    <br><br>Com passagem por grandes empresas como Fast Shop, Polishop e TIM, deixou sua marca liderando com estratégia, desenvolvendo líderes e impulsionando negócios.</font>
-                                </h5>
-                            </div>
-                            <br>
-                            <!-- Caixa de descrição de Karen -->
-                         
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-12">
-                <div class="image-part"><br>
-                    <img src="assets/images/gift/03.png" alt="gift-img">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="faq-section" style="background-color: #e7d99d; padding: 40px 0;">
     <div class="container">
@@ -593,132 +829,111 @@
 
         <!-- FAQ Container -->
         <div class="faq-container" style="background-color: white; padding: 30px; border-radius: 15px;">
-
-            <!-- FAQ Items -->
             <div class="faq-items" style="margin-top: 20px;">
 
-               <!-- ITEM 1 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">1. O que é a formação "Líder Especialista"?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">A formação "Líder Especialista" é um programa baseado no método GPS – Gestão Prática e Simples, criado para capacitar líderes e empresários a dominarem a gestão de pessoas, processos e resultados, de forma estruturada e eficiente.</p>
-    </div>
-</div>
+                <!-- ITEM 1 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">1. O diagnóstico é realmente gratuito?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Sim! É 100% gratuito e sem compromisso. Foi criado para ajudar empresários a identificarem os reais pontos de atenção da empresa.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 2 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">2. Para quem essa formação é indicada?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">A formação é ideal para líderes, gestores, empresários e supervisores que desejam desenvolver uma gestão mais estratégica, eficiente e humanizada, melhorando o desempenho da equipe e os resultados da empresa.</p>
-    </div>
-</div>
+                <!-- ITEM 2 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">2. Como o diagnóstico é feito?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Você responde um questionário online rápido. O sistema gera automaticamente um relatório personalizado e estratégico.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 3 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">3. A formação é teórica ou prática?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">O programa é altamente prático e aplicável, combinando conceitos essenciais com ferramentas e estratégias testadas no dia a dia da gestão.</p>
-    </div>
-</div>
+                <!-- ITEM 3 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">3. Em quanto tempo recebo o resultado?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Na hora! Assim que você finaliza, já tem acesso ao relatório completo.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 4 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">4. Como funciona o método GPS?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">O método GPS é estruturado em três pilares:
-            <ul style="text-align: center; margin: 10px 0; center">
-                <li><strong>Gestão de Pessoas:</strong> Liderança estratégica, motivação e desenvolvimento da equipe.<br><br>
-               <strong>Gestão de Processos:</strong> Estruturação de rotinas e fluxos eficientes para otimizar a operação.<br><br>
-                <strong>Gestão de Resultados:</strong> Análise e acompanhamento de indicadores para tomada de decisão assertiva.</li>
-            </ul>
-        </p>
-    </div>
-</div>
+                <!-- ITEM 4 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">4. Preciso ter conhecimento técnico para entender o diagnóstico?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Não. O conteúdo é simples, com analogias à saúde empresarial, facilitando a compreensão.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 5 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">5. Qual o formato da formação?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">A formação é oferecida de maneira presencial, para garantir uma experiência ainda mais profunda.</p>
-    </div>
-</div>
+                <!-- ITEM 5 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">5. Minha empresa é pequena. Esse diagnóstico serve para mim?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Sim. Ele é útil para negócios de qualquer porte que desejam crescer com mais estrutura e clareza.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 6 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">6. Qual a duração da formação?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">A duração é de 2 meses.</p>
-    </div>
-</div>
+                <!-- ITEM 6 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">6. Depois do diagnóstico, sou obrigado a contratar algum serviço?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Não. A decisão é sua. Caso queira apoio para aplicar as soluções, temos opções de mentoria e consultoria.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 7 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">7. A formação oferece certificado?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">Sim! Ao concluir a formação, os participantes recebem um certificado de Líder Especialista, reconhecendo sua capacitação no método GPS.</p>
-    </div>
-</div>
+                <!-- ITEM 7 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">7. Quem criou esse diagnóstico?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">A K2 Business, com mais de 10 anos de experiência em liderança, cultura e estruturação empresarial.</p>
+                    </div>
+                </div>
 
-<!-- ITEM 8 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">8. Quais são os principais benefícios da formação?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <ul style="text-align: center; margin: 10px 0;center;">
-            <li>Desenvolvimento de uma liderança estratégica e eficiente</li><br>
-            <li>Aumento do engajamento e produtividade da equipe</li><br>
-            <li>Estruturação de processos claros e bem definidos</li><br>
-            <li>Maior controle sobre indicadores e metas</li><br>
-            <li>Tomada de decisão mais assertiva, baseada em dados e boas práticas</li><br>
-        </ul>
-    </div>
-</div>
+                <!-- ITEM 8 -->
+                <div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">8. O que exatamente é avaliado?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <ul style="text-align: center; margin: 10px 0;">
+                            <li>🧠 Liderança e decisões</li><br>
+                            <li>🫀 Equipe e cultura</li><br>
+                            <li>🫁 Finanças e sustentabilidade</li><br>
+                            <li>🩸 Processos e comunicação</li>
+                        </ul>
+                    </div>
+                </div>
 
-<!-- ITEM 9 -->
-<div class="faq-item" style="margin-bottom: 15px; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">9. Como posso me inscrever?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">Basta clicar no botão "EU QUERO ME FORMAR" no nosso site e preencher os dados solicitados. Em seguida, finalize o pagamento para garantir sua inscrição.</p>
-    </div>
-</div>
-
-<!-- ITEM 10 -->
-<div class="faq-item" style="margin-bottom: 15px;">
-    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
-        <span style="flex: 1; text-align: center;">10. Como posso entrar em contato para mais informações?</span>
-        <i class="fas fa-chevron-down" style="color: #978845;"></i>
-    </button>
-    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
-        <p style="font-size: 20px; color: #00102e;">Você pode entrar em contato conosco através do botão abaixo, que direciona para nosso WhatsApp.</p>
-    </div>
-</div>
-
+                <!-- ITEM 9 -->
+                <div class="faq-item" style="margin-bottom: 15px;">
+                    <button style="width: 100%; background-color: transparent; border: none; text-align: center; font-size: 18px; font-weight: bold; color: #00102e; display: flex; justify-content: space-between; align-items: center; outline: none;">
+                        <span style="flex: 1; text-align: center;">9. O que devo fazer depois de ver o resultado?</span>
+                        <i class="fas fa-chevron-down" style="color: #978845;"></i>
+                    </button>
+                    <div class="faq-answer" style="display: none; margin-top: 10px; text-align: center;">
+                        <p style="font-size: 20px; color: #00102e;">Usar o relatório como guia para suas decisões. Se quiser avançar, é possível conversar com a equipe K2 para um plano personalizado.</p>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -731,6 +946,7 @@
         </div>
     </div>
 </section>
+
 
 
 
