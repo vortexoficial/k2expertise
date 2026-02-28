@@ -2142,9 +2142,46 @@
             margin-top: 70px;
             padding-top: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.05);
-            text-align: center;
             font-size: 0.9rem;
             color: #777;
+        }
+
+        .footer-bottom-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .footer-bottom p {
+            margin-bottom: 0;
+        }
+
+        .dev-credit {
+            margin-top: 0;
+            text-align: right;
+        }
+
+        .dev-credit a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #9d9d9d;
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+            transition: color 0.3s ease;
+        }
+
+        .dev-credit a:hover {
+            color: #bfa741;
+        }
+
+        .dev-credit strong {
+            font-weight: 700;
         }
 
         .whatsapp-btn-footer {
@@ -2197,6 +2234,20 @@
             .whatsapp-btn-footer {
                 margin: 15px auto 0;
             }
+
+            .footer-bottom {
+                text-align: center;
+            }
+
+            .footer-bottom-content {
+                flex-direction: column;
+                justify-content: center;
+                gap: 12px;
+            }
+
+            .dev-credit {
+                text-align: center;
+            }
         }
     </style>
 
@@ -2246,7 +2297,14 @@
     </div>
 
     <div class="footer-bottom">
-        <p>&copy; 2026 K2 Expertise. Todos os direitos reservados.</p>
+        <div class="footer-bottom-content">
+            <p>&copy; 2026 K2 Expertise. Todos os direitos reservados.</p>
+            <p class="dev-credit">
+                <a href="https://agenciafuturadesign.com" target="_blank">
+                    Desenvolvido por <strong>FuturaDesign</strong>
+                </a>
+            </p>
+        </div>
     </div>
 </footer>
 
